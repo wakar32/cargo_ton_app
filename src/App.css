@@ -2,37 +2,57 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.nav-link {
+  padding: 0 8px !important;
+}
+.nav-link:hover,
+.dropdown-item:hover {
+  color: #999 !important;
+  border-left: 4px solid #f9bc08;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn {
+  --bs-btn-border-radius: 0 !important;
+}
+
+.btn-primary {
+  --bs-btn-bg: #f9bc08 !important;
+  --bs-btn-border-color: #f9bc08 !important;
+  --bs-btn-hover-bg: rgba(249, 189, 8, 0.8) !important;
+  --bs-btn-hover-border-color: rgba(249, 189, 8, 0.8) !important;
+  --bs-btn-active-bg: rgba(249, 189, 8, 0.8) !important;
+  --bs-btn-active-border-color: rgba(249, 189, 8, 0.8) !important;
+  --bs-btn-disabled-bg: #f9bc08 !important;
+  --bs-btn-disabled-border-color: #f9bc08 !important;
+  height: 50px !important;
+  padding: 0 20px !important;
+}
+
+.btn-secondary {
+  --bs-btn-bg: #171717 !important;
+  --bs-btn-border-color: #171717 !important;
+  --bs-btn-hover-bg: rgba(23, 23, 23, 0.8) !important;
+  --bs-btn-hover-border-color: rgba(23, 23, 23, 0.8) !important;
+  --bs-btn-active-bg: rgba(23, 23, 23, 0.8) !important;
+  --bs-btn-active-border-color: rgba(23, 23, 23, 0.8) !important;
+  --bs-btn-disabled-bg: #171717 !important;
+  --bs-btn-disabled-border-color: #171717 !important;
+  height: 50px !important;
+  padding: 0 20px !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: right;
+    margin-right: 30px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-custom-yellow {
+  background-color: #f9bc08;
 }
