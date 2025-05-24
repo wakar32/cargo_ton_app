@@ -1,19 +1,13 @@
 import React from "react";
-import "./CarouselCard.css"; // For custom styles (optional)
 
-const CarouselCard = ({ singleCarouselData }) =>
-  //   {
-  //   title = "LOGISTICS",
-  //   secondaryTitle = "Best Shipping",
-  //   MinorTitle = "Partner",
-  //   Description = "Shipping is the process of transporting goods from one location to another, essential for global trade. It includes various methods like sea, air, rail, and road freight. Efficient shipping ensures timely delivery, cost-effectiveness, and customer satisfaction. Modern logistics rely on advanced tracking, automation, and sustainable practices to optimize supply chains and meet market demands. ",
-  //   buttonName = "DISCOVER MORE",
-  //   onClick = () => alert("Contact clicked!"),
-  //   imageUrl = "https://picsum.photos/600/400",
-  // }
-  {
-    return (
-      <div className="d-flex position-relative" style={{ overflow: "visible" }}>
+const CarouselCard = ({ singleCarouselData, isActive }) => {
+  console.log("isActive?", isActive);
+  return (
+    <div className={`carousel-item${isActive ? " active" : ""}`}>
+      <div
+        className={"d-flex position-relative"}
+        style={{ overflow: "visible" }}
+      >
         <div
           className="position-relative"
           style={{
@@ -60,7 +54,8 @@ const CarouselCard = ({ singleCarouselData }) =>
           />
         </div>
       </div>
-    );
-  };
+    </div>
+  );
+};
 
 export default CarouselCard;

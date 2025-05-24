@@ -4,14 +4,14 @@ import carouselData from "../data/carouselData";
 const OurServicesSection = () => {
   return (
     <div className="d-flex" style={{ height: "400px" }}>
-      {/* CarouselCard with 90% width */}
-      <div style={{ width: "97%", height: 600 }}>
+      {/* CarouselCard with 97% width */}
+      {/* <div style={{ width: "97%", height: 600 }}>
         {carouselData.map((item, index) => {
           return <CarouselCard key={index} singleCarouselData={item} />;
         })}
-      </div>
+      </div> */}
 
-      {/* Vertical text with 10% width */}
+      {/* Vertical text with 3% width */}
       <div
         className="text-black bg-white"
         style={{
