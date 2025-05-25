@@ -1,0 +1,14 @@
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.dot.active {
+  border-color: #8bc34a; /* green border */
+  background-color: #fff;
+}

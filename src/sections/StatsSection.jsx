@@ -1,5 +1,11 @@
+import StatCard from "../components/StatCard";
+
 const StatsSection = () => {
-  return <div>StatsSection</div>;
+  return (
+    <div>
+      <StatCard></StatCard>
+    </div>
+  );
 };
 
 export default StatsSection;

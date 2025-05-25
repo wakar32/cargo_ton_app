@@ -16,9 +16,9 @@ function App() {
       {/* <HeaderSection></HeaderSection> */}
       {/* <CarouselSection></CarouselSection> */}
       {/* <WelcomeSection></WelcomeSection> */}
-      <OurServicesSection></OurServicesSection>
-      {/* <StatsSection></StatsSection>
-      <TestimonialsSection></TestimonialsSection>
+      {/* <OurServicesSection></OurServicesSection> */}
+      <StatsSection></StatsSection>
+      {/* <TestimonialsSection></TestimonialsSection>
       <ClientLogosSection></ClientLogosSection>
       <NewsSection></NewsSection>
       <FooterSection></FooterSection> */}

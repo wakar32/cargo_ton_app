@@ -1,12 +1,26 @@
 const serviceData = [
   {
-    imageUrl: "https://picsum.photos/300/300",
-    title: "TransMax Logistics Around",
+    imageUrl: "https://picsum.photos/100/99",
+    title: "Air Freight Services",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla dolor aspernatur molestias, vitae nihil temporibus corrupti, excepturi maxime officiis amet! Voluptates saepe provident voluptate excepturi voluptas inventore, optio aliquid.",
-    secondaryDescription:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laboriosam deleniti culpa aperiam velit beatae autem quasi. Fugit eligendi, ipsam magnam aliquam nostrum unde eveniet.",
-    buttonName: "MORE ABOUT US",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla dolor aspernatur molestias,.",
+    buttonName: "Read More",
+    onClick: () => alert("Contact clicked!"),
+  },
+  {
+    imageUrl: "https://picsum.photos/100/100",
+    title: "Air Freight Services",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla dolor aspernatur molestias,.",
+    buttonName: "Read More",
+    onClick: () => alert("Contact clicked!"),
+  },
+  {
+    imageUrl: "https://picsum.photos/100/101",
+    title: "Air Freight Services",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla dolor aspernatur molestias,.",
+    buttonName: "Read More",
     onClick: () => alert("Contact clicked!"),
   },
 ];
