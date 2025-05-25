@@ -16,7 +16,7 @@ const OurServicesSection = () => {
     <div className="container mt-5 text-center">
       <div className="h6 text-success"> Real Sollution, Real Fast !</div>
       <div className="h2 text-center"> Best Global Logistics Solutions.</div>
-      <div className="d-flex flex-row justify-content-around">
+      <div className="d-lg-flex flex-row justify-content-around">
         {paginatedItems.map((item) => {
           return <ServiceCard singleServiceData={item}></ServiceCard>;
         })}

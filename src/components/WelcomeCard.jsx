@@ -2,7 +2,7 @@ import "./WelcomeCard.css";
 const WelcomeCard = ({ welcomeData }) => {
   console.log(welcomeData);
   return (
-    <div className="container my-5 d-flex justify-content-center">
+    <div className="container my-5 d-lg-flex justify-content-center">
       <div className="image-wrapper position-relative">
         <div className="triangle-tag"></div>
         <div className="parallelogram-tag"></div>

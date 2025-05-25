@@ -8,7 +8,10 @@ const FooterSection = () => {
         style={{ width: 1000 }}
         className="d-flex flex-column justify-content-between"
       >
-        <div className="d-flex justify-content-between">
+        <div
+          className="d-flex justify-content-between"
+          style={{ paddingTop: 20 }}
+        >
           <div>
             <div className="h3 text-start">Weekly News Letter</div>
             <div className=" text-start">Lorem ipsum dolor sit amet.</div>

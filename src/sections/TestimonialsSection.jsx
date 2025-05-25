@@ -4,7 +4,7 @@ import testimonialData from "../data/testimonialData";
 
 const TestimonialsSection = () => {
   return (
-    <div className="d-flex">
+    <div className="d-lg-flex">
       <div style={{ flex: 2, marginLeft: 100 }} className="d-flex flex-column">
         <div className="h2 text-uppercase"> TRUSTED CLIENTS</div>
         <div className="h6 text-start text-muted text-uppercase">
