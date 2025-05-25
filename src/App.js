@@ -12,18 +12,23 @@ import CarouselSection from "./sections/CarouselSection";
 
 function App() {
   return (
-    <div className="App">
-      {/* <HeaderSection></HeaderSection>
+    <div
+      className="App"
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "2rem",
+      }}
+    >
+      <HeaderSection></HeaderSection>
       <CarouselSection></CarouselSection>
       <WelcomeSection></WelcomeSection>
       <OurServicesSection></OurServicesSection>
       <StatsSection></StatsSection>
-      <TestimonialsSection></TestimonialsSection>       
+      <TestimonialsSection></TestimonialsSection>
       <ClientLogosSection></ClientLogosSection>
-      */}
-
       <NewsSection></NewsSection>
-      {/* <FooterSection></FooterSection> */}
+      <FooterSection></FooterSection>
     </div>
   );
 }
