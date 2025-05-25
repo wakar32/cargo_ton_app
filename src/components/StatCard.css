@@ -1,0 +1,7 @@
+.bg-count {
+  color: white !important;
+  text-shadow: 2px 2px grey;
+  font-size: 5.5rem;
+  bottom: 1rem;
+  opacity: 0.2;
+}
