@@ -1,0 +1,105 @@
+.image-wrapper {
+  width: 800px;
+  height: 400px;
+  /* position: relative; */
+  /* border: 3px solid royalblue; */
+}
+
+.back-img {
+  width: 250px;
+  height: 275px;
+  position: absolute;
+  top: 37px;
+  left: 112px;
+  z-index: 1;
+}
+
+.front-img {
+  width: 200px;
+  height: 225px;
+  position: absolute;
+  bottom: 25px;
+  left: 12px;
+  z-index: 2;
+}
+
+.side-tag {
+  clip-path: polygon(100% 0, 100% 100%, 11% 100%, 11% 20%, 0 0);
+  background-color: #fe7a44;
+  width: 160px;
+  height: 80px;
+  position: absolute;
+  bottom: 25px;
+  left: 330px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.client-text {
+  position: relative;
+  left: 10px;
+  color: white;
+  top: 5px;
+  font-size: 0.6rem;
+}
+.clinet-count {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: white !important;
+}
+
+.parallelogram-tag {
+  clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%);
+  background-color: #014a59;
+  height: 80px;
+  width: 30px;
+  position: absolute;
+  bottom: 50px;
+  left: 5px;
+  z-index: 4;
+}
+
+.triangle-tag {
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  background-color: #fe7a44;
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  bottom: 35px;
+  left: 5px;
+  z-index: 5;
+}
+
+.text-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  position: relative;
+  padding: 0px 100px;
+  width: 1000px;
+}
+
+.secondary-parallelogram-tag {
+  clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%);
+  background-color: #f4f4f4;
+  /* background-color: red; */
+  height: 130px;
+  width: 60px;
+  position: absolute;
+  top: 5px;
+  left: 80px;
+  z-index: -1;
+}
+
+.h2 {
+  text-align: left !important;
+}
+
+@media (min-width: 992px) {
+  .sub-title {
+    display: block;
+  }
+}

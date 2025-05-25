@@ -1,5 +1,8 @@
+import WelcomeCard from "../components/WelcomeCard";
+import welcomeData from "../data/welcomeData";
+
 const WelcomeSection = () => {
-  return <div>WelcomeSection</div>;
+  return <WelcomeCard welcomeData={welcomeData[0]}></WelcomeCard>;
 };
 
 export default WelcomeSection;
