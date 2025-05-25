@@ -13,15 +13,16 @@ import CarouselSection from "./sections/CarouselSection";
 function App() {
   return (
     <div className="App">
-      {/* <HeaderSection></HeaderSection> */}
-      {/* <CarouselSection></CarouselSection> */}
-      {/* <WelcomeSection></WelcomeSection> */}
-      {/* <OurServicesSection></OurServicesSection> */}
-      {/* <StatsSection></StatsSection> */}
-      <TestimonialsSection></TestimonialsSection>
-      {/* <ClientLogosSection></ClientLogosSection>
-      <NewsSection></NewsSection>
-      <FooterSection></FooterSection> */}
+      {/* <HeaderSection></HeaderSection>
+      <CarouselSection></CarouselSection>
+      <WelcomeSection></WelcomeSection>
+      <OurServicesSection></OurServicesSection>
+      <StatsSection></StatsSection>
+      <TestimonialsSection></TestimonialsSection> */}
+
+      <ClientLogosSection></ClientLogosSection>
+      {/* <NewsSection></NewsSection> */}
+      {/* <FooterSection></FooterSection> */}
     </div>
   );
 }

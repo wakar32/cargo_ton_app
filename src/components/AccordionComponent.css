@@ -1,0 +1,18 @@
+/* AccordionComponent.css */
+
+/* Remove the default Bootstrap arrow */
+.accordion-button::after {
+  display: none !important;
+}
+
+/* Optional: Customize icon styling */
+.accordion-button .icon {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background: black;
+  width: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

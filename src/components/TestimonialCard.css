@@ -1,0 +1,21 @@
+.testimonial-tag {
+  clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+  background-color: brown;
+  height: 30px;
+  width: 50px;
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  z-index: 4;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.testimonial-description {
+  clip-path: polygon(100% 0, 100% 88%, 93% 88%, 83% 100%, 83% 88%, 0 88%, 0 0);
+  height: 100px;
+  width: 350px;
+  background-color: rgb(173, 170, 170);
+  font-size: 10px;
+  text-align: justify;
+}
