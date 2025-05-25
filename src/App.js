@@ -18,10 +18,11 @@ function App() {
       <WelcomeSection></WelcomeSection>
       <OurServicesSection></OurServicesSection>
       <StatsSection></StatsSection>
-      <TestimonialsSection></TestimonialsSection> */}
-
+      <TestimonialsSection></TestimonialsSection>       
       <ClientLogosSection></ClientLogosSection>
-      {/* <NewsSection></NewsSection> */}
+      */}
+
+      <NewsSection></NewsSection>
       {/* <FooterSection></FooterSection> */}
     </div>
   );
