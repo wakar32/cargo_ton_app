@@ -30,6 +30,7 @@ const NewsCard = ({ singleNewsData, index }) => {
       </div>
       <div>
         <img
+          alt=""
           src={singleNewsData.imageUrl}
           style={{ width: 234, height: 195 }}
         />
