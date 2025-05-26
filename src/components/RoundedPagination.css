@@ -9,6 +9,6 @@
 }
 
 .dot.active {
-  border-color: #8bc34a; /* green border */
+  border-color: #8bc34a;
   background-color: #fff;
 }
